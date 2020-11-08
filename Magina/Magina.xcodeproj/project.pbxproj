@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B4299872557C20100875EED /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4299862557C20100875EED /* TableViewCell.m */; };
+		2B618F3F25552E960099B81C /* touxiang.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B618F3925552E960099B81C /* touxiang.jpeg */; };
+		2B618F4025552E960099B81C /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B618F3A25552E960099B81C /* People.m */; };
+		2B618F4125552E960099B81C /* WechatIMG14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B618F3B25552E960099B81C /* WechatIMG14.jpeg */; };
+		2B618F4225552E960099B81C /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B618F3D25552E960099B81C /* EditViewController.m */; };
+		2B618F49255530740099B81C /* MyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B618F47255530740099B81C /* MyHeader.m */; };
+		2B618F51255533FE0099B81C /* work.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2B618F50255533FE0099B81C /* work.jpeg */; };
+		2B618F5F25553EE90099B81C /* MyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B618F5725553EE80099B81C /* MyHeaderView.m */; };
+		2B618F6025553EE90099B81C /* MyTableViewContrllor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B618F5A25553EE80099B81C /* MyTableViewContrllor.m */; };
+		2B618F6125553EE90099B81C /* RankData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B618F5D25553EE90099B81C /* RankData.m */; };
+		2B618F6225553EE90099B81C /* DataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B618F5E25553EE90099B81C /* DataArray.m */; };
+		2BB65C7D2546F9110047AE86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB65C7C2546F9110047AE86 /* AppDelegate.m */; };
+		2BB65C862546F9110047AE86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB65C842546F9110047AE86 /* Main.storyboard */; };
+		2BB65C882546F9120047AE86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB65C872546F9120047AE86 /* Assets.xcassets */; };
+		2BB65C8B2546F9120047AE86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB65C892546F9120047AE86 /* LaunchScreen.storyboard */; };
+		2BB65C8E2546F9120047AE86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB65C8D2546F9120047AE86 /* main.m */; };
+		2BB65C982546F9120047AE86 /* MaginaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB65C972546F9120047AE86 /* MaginaTests.m */; };
+		2BB65CA32546F9120047AE86 /* MaginaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB65CA22546F9120047AE86 /* MaginaUITests.m */; };
+		2BB65FCA254703C20047AE86 /* MAGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB65FC9254703C20047AE86 /* MAGRootViewController.m */; };
+		2BB65FD6254705060047AE86 /* MAGFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB65FD5254705060047AE86 /* MAGFeedViewController.m */; };
+		2BB65FDF254705290047AE86 /* MAGUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB65FDE254705290047AE86 /* MAGUserViewController.m */; };
+		2BB65FE5254705800047AE86 /* MAGRankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB65FE4254705800047AE86 /* MAGRankViewController.m */; };
+		2BB65FEB2547058B0047AE86 /* MAGTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB65FEA2547058B0047AE86 /* MAGTestViewController.m */; };
+		32C423BC833BCDD0E77509F3 /* libPods-MaginaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C513891F7F289B972747673B /* libPods-MaginaTests.a */; };
+		7A9EBB2209B0C239E3341EDB /* libPods-MaginaUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C95B66E469DC2CC50CACA72F /* libPods-MaginaUITests.a */; };
+		CFCAF0CA6A17DCDBC95BD970 /* libPods-Magina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 826770D7D84090700B5586F3 /* libPods-Magina.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BB65C942546F9120047AE86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB65C702546F9110047AE86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB65C772546F9110047AE86;
+			remoteInfo = Magina;
+		};
+		2BB65C9F2546F9120047AE86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB65C702546F9110047AE86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB65C772546F9110047AE86;
+			remoteInfo = Magina;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15C0FA8032A6B08DADE84528 /* Pods-Magina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magina.debug.xcconfig"; path = "Target Support Files/Pods-Magina/Pods-Magina.debug.xcconfig"; sourceTree = "<group>"; };
+		2B4299852557C20100875EED /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		2B4299862557C20100875EED /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		2B618F3825552E960099B81C /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		2B618F3925552E960099B81C /* touxiang.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = touxiang.jpeg; sourceTree = "<group>"; };
+		2B618F3A25552E960099B81C /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		2B618F3B25552E960099B81C /* WechatIMG14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG14.jpeg; sourceTree = "<group>"; };
+		2B618F3C25552E960099B81C /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		2B618F3D25552E960099B81C /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		2B618F47255530740099B81C /* MyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHeader.m; sourceTree = "<group>"; };
+		2B618F48255530740099B81C /* MyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHeader.h; sourceTree = "<group>"; };
+		2B618F50255533FE0099B81C /* work.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = work.jpeg; sourceTree = "<group>"; };
+		2B618F5725553EE80099B81C /* MyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHeaderView.m; sourceTree = "<group>"; };
+		2B618F5825553EE80099B81C /* DataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataArray.h; sourceTree = "<group>"; };
+		2B618F5925553EE80099B81C /* RankData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankData.h; sourceTree = "<group>"; };
+		2B618F5A25553EE80099B81C /* MyTableViewContrllor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewContrllor.m; sourceTree = "<group>"; };
+		2B618F5B25553EE90099B81C /* MyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHeaderView.h; sourceTree = "<group>"; };
+		2B618F5C25553EE90099B81C /* MyTableViewContrllor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewContrllor.h; sourceTree = "<group>"; };
+		2B618F5D25553EE90099B81C /* RankData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankData.m; sourceTree = "<group>"; };
+		2B618F5E25553EE90099B81C /* DataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataArray.m; sourceTree = "<group>"; };
+		2BB65C782546F9110047AE86 /* Magina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB65C7B2546F9110047AE86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BB65C7C2546F9110047AE86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BB65C852546F9110047AE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BB65C872546F9120047AE86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BB65C8A2546F9120047AE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BB65C8C2546F9120047AE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB65C8D2546F9120047AE86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BB65C932546F9120047AE86 /* MaginaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaginaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB65C972546F9120047AE86 /* MaginaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaginaTests.m; sourceTree = "<group>"; };
+		2BB65C992546F9120047AE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB65C9E2546F9120047AE86 /* MaginaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaginaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB65CA22546F9120047AE86 /* MaginaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaginaUITests.m; sourceTree = "<group>"; };
+		2BB65CA42546F9120047AE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB65FC8254703C20047AE86 /* MAGRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGRootViewController.h; sourceTree = "<group>"; };
+		2BB65FC9254703C20047AE86 /* MAGRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGRootViewController.m; sourceTree = "<group>"; };
+		2BB65FD4254705060047AE86 /* MAGFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGFeedViewController.h; sourceTree = "<group>"; };
+		2BB65FD5254705060047AE86 /* MAGFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGFeedViewController.m; sourceTree = "<group>"; };
+		2BB65FDD254705290047AE86 /* MAGUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGUserViewController.h; sourceTree = "<group>"; };
+		2BB65FDE254705290047AE86 /* MAGUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGUserViewController.m; sourceTree = "<group>"; };
+		2BB65FE3254705800047AE86 /* MAGRankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGRankViewController.h; sourceTree = "<group>"; };
+		2BB65FE4254705800047AE86 /* MAGRankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGRankViewController.m; sourceTree = "<group>"; };
+		2BB65FE92547058B0047AE86 /* MAGTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGTestViewController.h; sourceTree = "<group>"; };
+		2BB65FEA2547058B0047AE86 /* MAGTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGTestViewController.m; sourceTree = "<group>"; };
+		310FDF1539F915175A329D81 /* Pods-Magina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magina.release.xcconfig"; path = "Target Support Files/Pods-Magina/Pods-Magina.release.xcconfig"; sourceTree = "<group>"; };
+		76C5C36A71FE26710FF0A87C /* Pods-MaginaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaginaTests.debug.xcconfig"; path = "Target Support Files/Pods-MaginaTests/Pods-MaginaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		826770D7D84090700B5586F3 /* libPods-Magina.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Magina.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BB617D50D5AA8606F9A9D7 /* Pods-MaginaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaginaUITests.debug.xcconfig"; path = "Target Support Files/Pods-MaginaUITests/Pods-MaginaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7CFF99890D365DEB740EA90 /* Pods-MaginaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaginaUITests.release.xcconfig"; path = "Target Support Files/Pods-MaginaUITests/Pods-MaginaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B2610E8ADC1CFD6F115A8DF7 /* Pods-MaginaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaginaTests.release.xcconfig"; path = "Target Support Files/Pods-MaginaTests/Pods-MaginaTests.release.xcconfig"; sourceTree = "<group>"; };
+		C513891F7F289B972747673B /* libPods-MaginaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaginaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95B66E469DC2CC50CACA72F /* libPods-MaginaUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaginaUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB65C752546F9110047AE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCAF0CA6A17DCDBC95BD970 /* libPods-Magina.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB65C902546F9120047AE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C423BC833BCDD0E77509F3 /* libPods-MaginaTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB65C9B2546F9120047AE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9EBB2209B0C239E3341EDB /* libPods-MaginaUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B618F3625552E1E0099B81C /* MAGUser */ = {
+			isa = PBXGroup;
+			children = (
+				2B618F3825552E960099B81C /* EditViewController.h */,
+				2B618F3D25552E960099B81C /* EditViewController.m */,
+				2B618F48255530740099B81C /* MyHeader.h */,
+				2B618F47255530740099B81C /* MyHeader.m */,
+				2B618F50255533FE0099B81C /* work.jpeg */,
+				2B618F3C25552E960099B81C /* People.h */,
+				2B618F3A25552E960099B81C /* People.m */,
+				2B618F3925552E960099B81C /* touxiang.jpeg */,
+				2B618F3B25552E960099B81C /* WechatIMG14.jpeg */,
+			);
+			path = MAGUser;
+			sourceTree = "<group>";
+		};
+		2B618F5625553E860099B81C /* MAGRank */ = {
+			isa = PBXGroup;
+			children = (
+				2B618F5925553EE80099B81C /* RankData.h */,
+				2B618F5D25553EE90099B81C /* RankData.m */,
+				2B618F5825553EE80099B81C /* DataArray.h */,
+				2B618F5E25553EE90099B81C /* DataArray.m */,
+				2B618F5B25553EE90099B81C /* MyHeaderView.h */,
+				2B618F5725553EE80099B81C /* MyHeaderView.m */,
+				2B618F5C25553EE90099B81C /* MyTableViewContrllor.h */,
+				2B618F5A25553EE80099B81C /* MyTableViewContrllor.m */,
+				2B4299852557C20100875EED /* TableViewCell.h */,
+				2B4299862557C20100875EED /* TableViewCell.m */,
+			);
+			path = MAGRank;
+			sourceTree = "<group>";
+		};
+		2BB65C6F2546F9110047AE86 = {
+			isa = PBXGroup;
+			children = (
+				2BB65C7A2546F9110047AE86 /* Magina */,
+				2BB65C962546F9120047AE86 /* MaginaTests */,
+				2BB65CA12546F9120047AE86 /* MaginaUITests */,
+				2BB65C792546F9110047AE86 /* Products */,
+				D437E3CD39183DD05AE1D1E0 /* Pods */,
+				981795B5454D129EF91DA13A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BB65C792546F9110047AE86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BB65C782546F9110047AE86 /* Magina.app */,
+				2BB65C932546F9120047AE86 /* MaginaTests.xctest */,
+				2BB65C9E2546F9120047AE86 /* MaginaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BB65C7A2546F9110047AE86 /* Magina */ = {
+			isa = PBXGroup;
+			children = (
+				2BB65C7B2546F9110047AE86 /* AppDelegate.h */,
+				2BB65C7C2546F9110047AE86 /* AppDelegate.m */,
+				2BB65C842546F9110047AE86 /* Main.storyboard */,
+				2BB65C872546F9120047AE86 /* Assets.xcassets */,
+				2BB65C892546F9120047AE86 /* LaunchScreen.storyboard */,
+				2BB65C8C2546F9120047AE86 /* Info.plist */,
+				2BB65C8D2546F9120047AE86 /* main.m */,
+				2BB65FC8254703C20047AE86 /* MAGRootViewController.h */,
+				2BB65FC9254703C20047AE86 /* MAGRootViewController.m */,
+				2BB65FD4254705060047AE86 /* MAGFeedViewController.h */,
+				2BB65FD5254705060047AE86 /* MAGFeedViewController.m */,
+				2BB65FDD254705290047AE86 /* MAGUserViewController.h */,
+				2BB65FDE254705290047AE86 /* MAGUserViewController.m */,
+				2BB65FE3254705800047AE86 /* MAGRankViewController.h */,
+				2BB65FE4254705800047AE86 /* MAGRankViewController.m */,
+				2BB65FE92547058B0047AE86 /* MAGTestViewController.h */,
+				2BB65FEA2547058B0047AE86 /* MAGTestViewController.m */,
+				2B618F5625553E860099B81C /* MAGRank */,
+				2B618F3625552E1E0099B81C /* MAGUser */,
+			);
+			path = Magina;
+			sourceTree = "<group>";
+		};
+		2BB65C962546F9120047AE86 /* MaginaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB65C972546F9120047AE86 /* MaginaTests.m */,
+				2BB65C992546F9120047AE86 /* Info.plist */,
+			);
+			path = MaginaTests;
+			sourceTree = "<group>";
+		};
+		2BB65CA12546F9120047AE86 /* MaginaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB65CA22546F9120047AE86 /* MaginaUITests.m */,
+				2BB65CA42546F9120047AE86 /* Info.plist */,
+			);
+			path = MaginaUITests;
+			sourceTree = "<group>";
+		};
+		981795B5454D129EF91DA13A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				826770D7D84090700B5586F3 /* libPods-Magina.a */,
+				C513891F7F289B972747673B /* libPods-MaginaTests.a */,
+				C95B66E469DC2CC50CACA72F /* libPods-MaginaUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D437E3CD39183DD05AE1D1E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15C0FA8032A6B08DADE84528 /* Pods-Magina.debug.xcconfig */,
+				310FDF1539F915175A329D81 /* Pods-Magina.release.xcconfig */,
+				76C5C36A71FE26710FF0A87C /* Pods-MaginaTests.debug.xcconfig */,
+				B2610E8ADC1CFD6F115A8DF7 /* Pods-MaginaTests.release.xcconfig */,
+				94BB617D50D5AA8606F9A9D7 /* Pods-MaginaUITests.debug.xcconfig */,
+				A7CFF99890D365DEB740EA90 /* Pods-MaginaUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BB65C772546F9110047AE86 /* Magina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB65CA72546F9120047AE86 /* Build configuration list for PBXNativeTarget "Magina" */;
+			buildPhases = (
+				81EBBDC97E8AD533EA389112 /* [CP] Check Pods Manifest.lock */,
+				2BB65C742546F9110047AE86 /* Sources */,
+				2BB65C752546F9110047AE86 /* Frameworks */,
+				2BB65C762546F9110047AE86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magina;
+			productName = Magina;
+			productReference = 2BB65C782546F9110047AE86 /* Magina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BB65C922546F9120047AE86 /* MaginaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB65CAA2546F9120047AE86 /* Build configuration list for PBXNativeTarget "MaginaTests" */;
+			buildPhases = (
+				34C32C5174BA52E8291C9F55 /* [CP] Check Pods Manifest.lock */,
+				2BB65C8F2546F9120047AE86 /* Sources */,
+				2BB65C902546F9120047AE86 /* Frameworks */,
+				2BB65C912546F9120047AE86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB65C952546F9120047AE86 /* PBXTargetDependency */,
+			);
+			name = MaginaTests;
+			productName = MaginaTests;
+			productReference = 2BB65C932546F9120047AE86 /* MaginaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BB65C9D2546F9120047AE86 /* MaginaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB65CAD2546F9120047AE86 /* Build configuration list for PBXNativeTarget "MaginaUITests" */;
+			buildPhases = (
+				5429EC0047DECE3DBBA41D2E /* [CP] Check Pods Manifest.lock */,
+				2BB65C9A2546F9120047AE86 /* Sources */,
+				2BB65C9B2546F9120047AE86 /* Frameworks */,
+				2BB65C9C2546F9120047AE86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB65CA02546F9120047AE86 /* PBXTargetDependency */,
+			);
+			name = MaginaUITests;
+			productName = MaginaUITests;
+			productReference = 2BB65C9E2546F9120047AE86 /* MaginaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BB65C702546F9110047AE86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2BB65C772546F9110047AE86 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					2BB65C922546F9120047AE86 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2BB65C772546F9110047AE86;
+					};
+					2BB65C9D2546F9120047AE86 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 2BB65C772546F9110047AE86;
+					};
+				};
+			};
+			buildConfigurationList = 2BB65C732546F9110047AE86 /* Build configuration list for PBXProject "Magina" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BB65C6F2546F9110047AE86;
+			productRefGroup = 2BB65C792546F9110047AE86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BB65C772546F9110047AE86 /* Magina */,
+				2BB65C922546F9120047AE86 /* MaginaTests */,
+				2BB65C9D2546F9120047AE86 /* MaginaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BB65C762546F9110047AE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B618F4125552E960099B81C /* WechatIMG14.jpeg in Resources */,
+				2B618F3F25552E960099B81C /* touxiang.jpeg in Resources */,
+				2BB65C8B2546F9120047AE86 /* LaunchScreen.storyboard in Resources */,
+				2BB65C882546F9120047AE86 /* Assets.xcassets in Resources */,
+				2B618F51255533FE0099B81C /* work.jpeg in Resources */,
+				2BB65C862546F9110047AE86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB65C912546F9120047AE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB65C9C2546F9120047AE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34C32C5174BA52E8291C9F55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaginaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5429EC0047DECE3DBBA41D2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaginaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81EBBDC97E8AD533EA389112 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Magina-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BB65C742546F9110047AE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B618F6125553EE90099B81C /* RankData.m in Sources */,
+				2B618F6225553EE90099B81C /* DataArray.m in Sources */,
+				2B618F4025552E960099B81C /* People.m in Sources */,
+				2B618F4225552E960099B81C /* EditViewController.m in Sources */,
+				2BB65FE5254705800047AE86 /* MAGRankViewController.m in Sources */,
+				2BB65FDF254705290047AE86 /* MAGUserViewController.m in Sources */,
+				2B618F49255530740099B81C /* MyHeader.m in Sources */,
+				2BB65C7D2546F9110047AE86 /* AppDelegate.m in Sources */,
+				2B618F5F25553EE90099B81C /* MyHeaderView.m in Sources */,
+				2BB65FEB2547058B0047AE86 /* MAGTestViewController.m in Sources */,
+				2BB65FD6254705060047AE86 /* MAGFeedViewController.m in Sources */,
+				2B618F6025553EE90099B81C /* MyTableViewContrllor.m in Sources */,
+				2BB65C8E2546F9120047AE86 /* main.m in Sources */,
+				2B4299872557C20100875EED /* TableViewCell.m in Sources */,
+				2BB65FCA254703C20047AE86 /* MAGRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB65C8F2546F9120047AE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB65C982546F9120047AE86 /* MaginaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB65C9A2546F9120047AE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB65CA32546F9120047AE86 /* MaginaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BB65C952546F9120047AE86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB65C772546F9110047AE86 /* Magina */;
+			targetProxy = 2BB65C942546F9120047AE86 /* PBXContainerItemProxy */;
+		};
+		2BB65CA02546F9120047AE86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB65C772546F9110047AE86 /* Magina */;
+			targetProxy = 2BB65C9F2546F9120047AE86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BB65C842546F9110047AE86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB65C852546F9110047AE86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BB65C892546F9120047AE86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB65C8A2546F9120047AE86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BB65CA52546F9120047AE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BB65CA62546F9120047AE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BB65CA82546F9120047AE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C0FA8032A6B08DADE84528 /* Pods-Magina.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNF9GAYQCV;
+				INFOPLIST_FILE = Magina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liujinze.Magina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BB65CA92546F9120047AE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310FDF1539F915175A329D81 /* Pods-Magina.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNF9GAYQCV;
+				INFOPLIST_FILE = Magina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liujinze.Magina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BB65CAB2546F9120047AE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C5C36A71FE26710FF0A87C /* Pods-MaginaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNF9GAYQCV;
+				INFOPLIST_FILE = MaginaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liujinze.MaginaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magina.app/Magina";
+			};
+			name = Debug;
+		};
+		2BB65CAC2546F9120047AE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2610E8ADC1CFD6F115A8DF7 /* Pods-MaginaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNF9GAYQCV;
+				INFOPLIST_FILE = MaginaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liujinze.MaginaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magina.app/Magina";
+			};
+			name = Release;
+		};
+		2BB65CAE2546F9120047AE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94BB617D50D5AA8606F9A9D7 /* Pods-MaginaUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNF9GAYQCV;
+				INFOPLIST_FILE = MaginaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liujinze.MaginaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Magina;
+			};
+			name = Debug;
+		};
+		2BB65CAF2546F9120047AE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7CFF99890D365DEB740EA90 /* Pods-MaginaUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNF9GAYQCV;
+				INFOPLIST_FILE = MaginaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liujinze.MaginaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Magina;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB65C732546F9110047AE86 /* Build configuration list for PBXProject "Magina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB65CA52546F9120047AE86 /* Debug */,
+				2BB65CA62546F9120047AE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB65CA72546F9120047AE86 /* Build configuration list for PBXNativeTarget "Magina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB65CA82546F9120047AE86 /* Debug */,
+				2BB65CA92546F9120047AE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB65CAA2546F9120047AE86 /* Build configuration list for PBXNativeTarget "MaginaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB65CAB2546F9120047AE86 /* Debug */,
+				2BB65CAC2546F9120047AE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB65CAD2546F9120047AE86 /* Build configuration list for PBXNativeTarget "MaginaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB65CAE2546F9120047AE86 /* Debug */,
+				2BB65CAF2546F9120047AE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BB65C702546F9110047AE86 /* Project object */;
+}
