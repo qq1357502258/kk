@@ -1,0 +1,16 @@
+PODS:
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - Masonry (~> 1.0.1)
+
+SPEC REPOS:
+  "git@code.byted.org:iOS_Library/publicthird_source_repo.git":
+    - Masonry
+
+SPEC CHECKSUMS:
+  Masonry: cedef9ab7d8b4a2608247b8b2c567c83eeaddd6d
+
+PODFILE CHECKSUM: c4e99e6a4f04e4a561ddc1816e3e9c21c6a207e0
+
+COCOAPODS: 1.10.0.rc.1
